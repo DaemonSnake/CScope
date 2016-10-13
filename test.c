@@ -28,10 +28,8 @@ void writer(int fd)
 
 int main()
 {
-    scope(exit)
-    {
-        scope(exit)
-        {
+    scope(exit) {
+        scope(exit) {
             printf("Second\n");
         }
         printf("First\n");
